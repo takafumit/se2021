@@ -13,6 +13,7 @@
 <body>
 <label>記事一覧</label><br><br>
 <a href = /TinyBBS/jsp/entryArticle.jsp>新規記事登録</a><br><br>
+<a href = /TinyBBS/UserListServlet>参加ユーザ確認</a><br><br>
 	<%
 		List<Article> aList = (List<Article>)( request.getAttribute("articleList") );
 	%>
